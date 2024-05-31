@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advinha</title>
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+<body> 
+    <section id="game-over" class="game-over">
+        <h1>GAME-OVER</h1>
+        <p id="res-game-over"></p>
+    </section>
+
+    <header>
+        <h1>Jogo do Advinha</h1>
+    </header>
+
+   
+
+    <section class="display">
+        <div class="container">
+            <div class="box">
+                <h2>Advinhe um numero de 0 a 100</h2>
+                <input type="number" placeholder="Advinhe o numero" id="number">
+                <button id="but" onclick="verificar()">Verificar</button>
+                <p id='mescont'>Tentativa 10/10</p>
+                   
+            </div>
+        </div><!--Container-->
+    </section><!--display-->
+    <section class="resposta">
+        <p id="message">...</p>
+    </section>
+
+    <script src="../Js/script.js"></script>
+</body>
+</html>
