@@ -1,4 +1,4 @@
-var sorte = Math.floor(Math.random() * 101)
+var sorte = Math.floor(Math.random() * 11)
 var mescont = document.getElementById('mescont')
 var cont = 10
 var inp = document.getElementById('but')
@@ -32,7 +32,7 @@ function verificar(){
             mesage.innerHTML= 'ACERTOU'
             mesage.style.color = 'green'
             mesage.style.borderBottom = '2px solid green'
-
+            inp.disabled = true
         }
     }
 
