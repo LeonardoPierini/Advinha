@@ -1,4 +1,4 @@
-var sorte = Math.floor(Math.random() * 11)
+var sorte = Math.floor(Math.random() * 101)
 var mescont = document.getElementById('mescont')
 var cont = 10
 var inp = document.getElementById('but')
